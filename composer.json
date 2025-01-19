@@ -1,0 +1,19 @@
+{
+    "name": "iamariezflores/phpthree",
+    "description": "A simple ThreeJs Wrapper for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Iamariezflores\\Phpthree\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ariez Flores (Aquilino)",
+            "email": "aries.flores@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
