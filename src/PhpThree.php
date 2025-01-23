@@ -35,19 +35,9 @@ class PhpThree
         return $this->objects;
     }
 
-    //temporary
-    private function threeCDN() 
-    {
-        $cdnLink = 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js';
-        $script = "<script src='{$cdnLink}'></script>";
-
-        return $script;
-    }
-
     public function render()
     {
         return "<div id='{$this->scene_id}' style='width: {$this->width}px; height: {$this->height}px;'>
-            {$this->threeCDN()}
             {$this->renderScript()}
         </div>";
     }
